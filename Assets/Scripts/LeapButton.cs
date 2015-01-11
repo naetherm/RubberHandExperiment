@@ -74,58 +74,44 @@ public class LeapButton : MonoBehaviour {
 		
 		// enforce lower bound set toggle down state.
 		if (currentDepth > m_maxDepth) {
-			transform.position = m_originalPosition - transform.forward * m_maxDepth;
-			if (m_toggleAble && m_toggleButton) {
-				m_isDown = !m_isDown;
-				m_toggleAble = false;
+						transform.position = m_originalPosition - transform.forward * m_maxDepth;
+						if (m_toggleAble && m_toggleButton) {
+								m_isDown = !m_isDown;
+								m_toggleAble = false;
 
-				// So, the button was pressed down, are we in senso game or not?
-				if (SController.SbInSensoGame) {
-					// In game mode, so let's play some sounds
-					switch (this.iDigit) {
-					case 0:
-					{
+								// So, the button was pressed down, are we in senso game or not?
+								if (SController.SbInSensoGame) {
+										// In game mode, so let's play some sounds
 
-					} break;
-					case 1:
-					{
+										//this.audio.PlayOneShot(this.pBuzzerSound);
+										audio.Play ();
+								} else {
+										// No longer in game mode, so let's do all other methods
+										switch (this.iDigit) {
+										case 0:
+												{
 						
-					} break;
-					case 2:
-					{
+												}
+												break;
+										case 1:
+												{
 						
-					} break;
-					case 3:
-					{
+												}
+												break;
+										case 2:
+												{
 						
-					} break;
-					}
+												}
+												break;
+										case 3:
+												{
 
-					//this.audio.PlayOneShot(this.pBuzzerSound);
-					audio.Play();
+												}
+												break;
+										}
+								}
+						}
 				}
-				else {
-					// No longer in game mode, so let's do all other methods
-					switch (this.iDigit) {
-					case 0:
-					{
-						
-					} break;
-					case 1:
-					{
-						
-					} break;
-					case 2:
-					{
-						
-					} break;
-					case 3:
-					{
-
-					} break;
-					}
-			}
-		}
 		
 		if (m_isDown) {
 			renderer.material.shader = Shader.Find("Self-Illumin/Diffuse");
