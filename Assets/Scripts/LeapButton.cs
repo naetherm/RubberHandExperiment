@@ -7,6 +7,8 @@ public class LeapButton : MonoBehaviour {
 	
 	Vector3 m_originalPosition; // default position of the button when not pressed.
 
+	public ExperimentController SController;
+
 	public int iDigit = -1;
 	
 	// the furthest "down" you can push the button.
@@ -76,6 +78,52 @@ public class LeapButton : MonoBehaviour {
 			if (m_toggleAble && m_toggleButton) {
 				m_isDown = !m_isDown;
 				m_toggleAble = false;
+
+				// So, the button was pressed down, are we in senso game or not?
+				if (SController.SbInSensoGame) {
+					// In game mode, so let's play some sounds
+					switch (this.iDigit) {
+					case 0:
+					{
+
+					} break;
+					case 1:
+					{
+						
+					} break;
+					case 2:
+					{
+						
+					} break;
+					case 3:
+					{
+						
+					} break;
+					}
+
+					//this.audio.PlayOneShot(this.pBuzzerSound);
+					audio.Play();
+				}
+				else {
+					// No longer in game mode, so let's do all other methods
+					switch (this.iDigit) {
+					case 0:
+					{
+						
+					} break;
+					case 1:
+					{
+						
+					} break;
+					case 2:
+					{
+						
+					} break;
+					case 3:
+					{
+
+					} break;
+					}
 			}
 		}
 		

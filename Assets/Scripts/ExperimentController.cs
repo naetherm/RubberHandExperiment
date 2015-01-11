@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ExperimentController : MonoBehaviour {
 
-	public bool bInSensoGame;
+	public bool SbInSensoGame;
 
 	public int iSensoGameRound;
 
@@ -13,7 +13,7 @@ public class ExperimentController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		bInSensoGame = true;
+		SbInSensoGame = true;
 
 		iSensoGameRound = 1;
 		
