@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: c448f6452aca96f4ba4ab727847ab925
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: cubicle01
+    100002: cubicle02
+    100004: //RootNode
+    100006: desktop01
+    100008: desktop02
+    100010: FilesDrawer
+    100012: FilesDrawer01
+    100014: glass
+    100016: glass01
+    100018: glass02
+    100020: keyboard_bench
+    100022: keyboard_bench01
+    400000: cubicle01
+    400002: cubicle02
+    400004: //RootNode
+    400006: desktop01
+    400008: desktop02
+    400010: FilesDrawer
+    400012: FilesDrawer01
+    400014: glass
+    400016: glass01
+    400018: glass02
+    400020: keyboard_bench
+    400022: keyboard_bench01
+    2300000: cubicle01
+    2300002: cubicle02
+    2300004: desktop01
+    2300006: desktop02
+    2300008: FilesDrawer
+    2300010: FilesDrawer01
+    2300012: glass
+    2300014: glass01
+    2300016: glass02
+    2300018: keyboard_bench
+    2300020: keyboard_bench01
+    3300000: cubicle01
+    3300002: cubicle02
+    3300004: desktop01
+    3300006: desktop02
+    3300008: FilesDrawer
+    3300010: FilesDrawer01
+    3300012: glass
+    3300014: glass01
+    3300016: glass02
+    3300018: keyboard_bench
+    3300020: keyboard_bench01
+    4300000: cubicle01
+    4300002: cubicle02
+    4300004: desktop01
+    4300006: desktop02
+    4300008: FilesDrawer
+    4300010: FilesDrawer01
+    4300012: glass
+    4300014: glass01
+    4300016: glass02
+    4300018: keyboard_bench
+    4300020: keyboard_bench01
+    6400000: cubicle01
+    6400002: cubicle02
+    6400004: desktop01
+    6400006: desktop02
+    6400008: FilesDrawer
+    6400010: FilesDrawer01
+    6400012: glass
+    6400014: glass01
+    6400016: glass02
+    6400018: keyboard_bench
+    6400020: keyboard_bench01
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 2
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
