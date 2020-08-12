@@ -7,23 +7,23 @@ public class Crate : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		this.bIsOpen = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (!this.bIsOpen) {
-			this.OpenFront();
-		}
+		// Nothing to do here
 	}
 
-	void OpenFront() {
-		// Play animation for open the front door
-		this.animation.Play ("CratePlateOpen");
+	public void OpenFront() {
+		if (!this.bIsOpen) {
+				// Play animation for open the front door
+				this.animation.Play ("CratePlateOpen");
 
-		// Play sound
-		this.audio.Play ();
+				// Play sound
+				this.audio.Play ();
 
-		this.bIsOpen = true;
+				this.bIsOpen = true;
+		}
 	}
 }
